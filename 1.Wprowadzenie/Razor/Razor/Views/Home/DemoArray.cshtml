@@ -1,0 +1,31 @@
+@using Razor.Models
+@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "DemoArray";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Nazwa
+                </th>
+                <th>
+                    Cena
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Product p in Model) {
+        <tr>
+            <td>
+                @p.Name
+            </td>
+            <td>
+                @p.Price
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
