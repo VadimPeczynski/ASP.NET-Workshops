@@ -1,0 +1,7 @@
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\bin\Debug\netcoreapp1.1\SportsStore.Domain.deps.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\bin\Debug\netcoreapp1.1\SportsStore.Domain.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\bin\Debug\netcoreapp1.1\SportsStore.Domain.pdb
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\obj\Debug\netcoreapp1.1\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\obj\Debug\netcoreapp1.1\SportsStore.Domain.AssemblyInfo.cs
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\obj\Debug\netcoreapp1.1\SportsStore.Domain.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.Domain\obj\Debug\netcoreapp1.1\SportsStore.Domain.pdb

@@ -1,0 +1,11 @@
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.WebUI.deps.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.WebUI.runtimeconfig.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.WebUI.runtimeconfig.dev.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.WebUI.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.WebUI.pdb
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.Domain.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\bin\Debug\netcoreapp1.1\SportsStore.Domain.pdb
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\obj\Debug\netcoreapp1.1\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\obj\Debug\netcoreapp1.1\SportsStore.WebUI.AssemblyInfo.cs
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\obj\Debug\netcoreapp1.1\SportsStore.WebUI.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.WebUI\obj\Debug\netcoreapp1.1\SportsStore.WebUI.pdb
