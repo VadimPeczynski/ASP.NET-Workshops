@@ -1,0 +1,14 @@
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.UnitTests.deps.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.UnitTests.runtimeconfig.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.UnitTests.runtimeconfig.dev.json
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.UnitTests.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.UnitTests.pdb
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.Domain.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\bin\Debug\netcoreapp1.1\SportsStore.Domain.pdb
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\obj\Debug\netcoreapp1.1\SportsStore.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\obj\Debug\netcoreapp1.1\SportsStore.UnitTests.AssemblyInfo.cs
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\obj\Debug\netcoreapp1.1\SportsStore.UnitTests.dll
+C:\Users\bkaczorowskiadm\Documents\Warsztaty\ASP.NET-Workshops\2.Tworzenie strony sklepu\SportsStore\SportsStore.UnitTests\obj\Debug\netcoreapp1.1\SportsStore.UnitTests.pdb
