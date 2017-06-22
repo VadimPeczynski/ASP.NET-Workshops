@@ -11,15 +11,17 @@ namespace SportsStore.WebUI.Controllers
     public class CartController : Controller
     {
         private readonly IProductRepository _repository;
+        private readonly Cart _cart;
 
-        public CartController(IProductRepository repository)
+        public CartController(IProductRepository repository, Cart cartService)
         {
             _repository = repository;
+            _cart = cartService;
         }
 
         public ViewResult Index(string returnUrl)
         {
-            var model = new CartIndexViewModel{Cart = GetCart(),ReturnUrl = returnUrl};
+            var model = new CartIndexViewModel{Cart = _cart,ReturnUrl = returnUrl};
             return View(model);
         }
         
@@ -28,22 +30,19 @@ namespace SportsStore.WebUI.Controllers
             var product = _repository.Products.FirstOrDefault(p=>p.ProductId==productId);
             if (product!=null)
             {
-                var cart = GetCart();
-                cart.AddItem(product, 1);
-                HttpContext.Session.Set("Cart", cart);
+                _cart.AddItem(product,1);
             }
             return RedirectToAction("Index", new {returnUrl});
         }
 
-        private Cart GetCart()
+        public RedirectToActionResult RemoveFromCart(int productId, string returnUrl)
         {
-            var cart = HttpContext.Session.Get<Cart>("Cart");
-            if (cart==null)
+            var product = _repository.Products.FirstOrDefault(p => p.ProductId == productId);
+            if (product != null)
             {
-                cart = new Cart();
-                HttpContext.Session.Set("Cart", cart);
+                _cart.RemoveLine(product);
             }
-            return cart;
+            return RedirectToAction("Index", new { returnUrl });
         }
     }
 }

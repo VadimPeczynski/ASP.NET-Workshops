@@ -33,5 +33,8 @@
     </tfoot>
 </table>
 
-<div class="text-center"><a class="btn btn-primary" href="@Model.ReturnUrl">Kontynuuj zakupy</a></div>
+<div class="text-center">
+    <a class="btn btn-primary" href="@Model.ReturnUrl">Kontynuuj zakupy</a>
+    <a class="btn btn-primary" asp-action="Checkout" asp-controller="Order">Przejdź do płatności</a>
+</div>
 

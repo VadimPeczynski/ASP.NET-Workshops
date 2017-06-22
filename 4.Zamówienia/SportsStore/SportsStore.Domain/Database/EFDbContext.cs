@@ -10,5 +10,6 @@ namespace SportsStore.Domain.Database
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=SportsStore;Trusted_Connection=True;");
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

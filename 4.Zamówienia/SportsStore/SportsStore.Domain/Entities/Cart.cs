@@ -9,7 +9,7 @@ namespace SportsStore.Domain.Entities
     {
         private List<CartLine> _lineCollection = new List<CartLine>();
 
-        public void AddItem(Product product, int quantity)
+        public virtual void AddItem(Product product, int quantity)
         {
             var line = _lineCollection
                 .FirstOrDefault(p => p.Product.ProductId == product.ProductId);
@@ -24,7 +24,7 @@ namespace SportsStore.Domain.Entities
             }
         }
 
-        public void RemoveLine(Product product)
+        public virtual void RemoveLine(Product product)
         {
             _lineCollection.RemoveAll(l => l.Product.ProductId == product.ProductId);
         }
@@ -34,7 +34,7 @@ namespace SportsStore.Domain.Entities
             return _lineCollection.Sum(e => e.Product.Price * e.Quantity);
         }
 
-        public void Clear()
+        public virtual void Clear()
         {
             _lineCollection.Clear();
         }
@@ -47,6 +47,7 @@ namespace SportsStore.Domain.Entities
 
     public class CartLine
     {
+        public int CartLineId { get; set; }
         public Product Product { get; set; }
         public int Quantity { get; set; }
     }

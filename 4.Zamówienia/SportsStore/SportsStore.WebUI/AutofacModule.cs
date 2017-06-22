@@ -20,6 +20,7 @@ namespace SportsStore.WebUI
                 }
             );
             builder.RegisterType<EFProductRepository>().As<IProductRepository>();
+            builder.RegisterType<EFOrderRepository>().As<IOrderRepository>();
         }
     }
 }
