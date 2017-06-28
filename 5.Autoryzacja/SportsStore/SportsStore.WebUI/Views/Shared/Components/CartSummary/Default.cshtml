@@ -1,0 +1,17 @@
+﻿@using Microsoft.ApplicationInsights.AspNetCore.Extensions
+@model SportsStore.Domain.Entities.Cart
+
+<div>
+    @if (Model.Lines.Any())
+    {
+        <small class="navbar-text">
+            <b>Twój koszyk:</b>
+            @Model.Lines.Sum(x=>x.Quantity) produkt(ów)
+            @Model.ComputeTotalValue().ToString("C")
+        </small>
+    }
+    <a class="btn btn-sm btn-default navbar-btn"
+       asp-controller="Cart" asp-action="Index"
+       asp-route-returnUrl="@ViewContext.HttpContext.Request.GetUri()">Twoje zamówienie</a>
+</div>
+

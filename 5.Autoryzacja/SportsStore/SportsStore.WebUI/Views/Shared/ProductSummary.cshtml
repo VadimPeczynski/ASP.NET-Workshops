@@ -1,0 +1,20 @@
+@using Microsoft.ApplicationInsights.AspNetCore.Extensions
+@model SportsStore.Domain.Entities.Product
+
+<div class="well">
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("C")</span>
+    </h3>
+    
+    @using (Html.BeginForm("AddToCart","Cart", FormMethod.Get))
+    {
+        <div class="pull-right">
+            @Html.HiddenFor(x=>x.ProductId)
+            @Html.Hidden("returnUrl",Context.Request.GetUri())
+            <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>
+        </div>
+    }
+
+    <span class="lead">@Model.Description</span>
+</div>
